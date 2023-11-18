@@ -19,9 +19,6 @@ public class WeatherData {
     private int humidity;
     private int Condition;
 
-
-
-
     public  static  WeatherData fromJson(JSONObject jsonObject)
     {
 
