@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="90dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cv_citiesWeather"
+    android:backgroundTint="@color/back_2"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="20dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:id="@+id/txtView_cities"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Singapore"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/txtView_weatherDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mostly Cloudy"
+            android:textColor="@color/white"
+            android:layout_alignParentBottom="true"/>
+
+        <TextView
+            android:id="@+id/txtView_cityTemp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="26°"
+            android:textColor="@color/white"
+            android:layout_alignParentEnd="true"
+            android:textSize="30sp"/>
+
+        <TextView
+            android:id="@+id/txtView_HL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="H:31° L:26°"
+            android:textColor="@color/white"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:textSize="13sp"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

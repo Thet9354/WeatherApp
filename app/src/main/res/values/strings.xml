@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Weather App</string>
+
+    <string-array name="cities">
+        <item>New York</item>
+        <item>Singapore</item>
+        <item>Mumbai</item>
+        <item>Delhi</item>
+        <item>Sydney</item>
+        <item>Melbourne</item>
+    </string-array>
+
+    <string name="slogan">Your go-to weather report</string>
+
+
+
+    <string-array name="latitude">
+        <item name="newYork">40.7128</item>
+        <item name="Singapore">1.3521</item>
+        <item name="Mumbai">19.0760</item>
+        <item name="Delhi">28.7041</item>
+        <item name="Sydney">33.8688</item>
+        <item name="Melbourne">37.8136</item>
+    </string-array>
+
+    <string-array name="longitude">
+        <item name="newYork">74.0060</item>
+        <item name="Singapore">103.8198</item>
+        <item name="Mumbai">72.8777</item>
+        <item name="Delhi">28.7041</item>
+        <item name="Sydney">151.2093</item>
+        <item name="Melbourne">144.9631</item>
+    </string-array>
+    
+</resources>
